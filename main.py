@@ -1,16 +1,15 @@
-# This is a sample Python script.
+def nodeDepths(root):
+    '''
+    The distance between a node in a Binary Tree and the tree's root is called the node's depth.
+    Write a function that takes in a Binary Tree and returns the sum of its nodes' depths.
+    Each BinaryTree node has an integer value, a left child node, and a right child node.
+    Children nodes can either be Binary Tree nodes themselves or None / null,
+    '''
+    pass
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# This is the class of the input binary tree.
+class BinaryTree:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
