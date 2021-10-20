@@ -13,7 +13,7 @@ def nodeDepths(root, depth = 0):
     return depth + nodeDepths(root.left, depth + 1) + nodeDepths(root.right, depth + 1)
 
 # Solution 2 - Iteratively
-# O(n) time | O(h) space, where n is the number of nodes in the Binary Tree
+# O(n) time | O(h) space, where n is the number of nodes in the Binary Tree  (akin to Depth)
 # h is the the height of the Binary Tree
 def nodeDepths1(root):
     sum_of_depth = 0
